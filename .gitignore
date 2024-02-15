@@ -1,0 +1,24 @@
+# Archivos de compilación de Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Binarios compilados
+bin/
+obj/
+
+# Archivos de configuración locales
+.idea/
+.vscode/
+
+# Dependencias de Go
+vendor/
+
+# Archivos temporales
+.tmp/
+.temp/
+
+# Archivos de respaldo
+*~
