@@ -26,7 +26,7 @@ func main(){
 	var strBuilder strings.Builder
 	// La forma mas eficiente de concatenar strings es con un string builder, 
 	// sumando los caracteres de forma convencional se hace un uso de memoria innecesario
-	// ya se crea un nuevo string por cada caracter que es concatenado
+	// ya que se crea un nuevo string por cada caracter que es concatenado
 	fmt.Println(strSlice)
 	for i := range strSlice{
 		strBuilder.WriteString(strSlice[i])
